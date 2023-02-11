@@ -7,11 +7,8 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
     background-color: rgb(24, 24, 24);
-    color: beige;
-}
-
-#fp-nav ul li a span, .fp-slidesNav ul li a span {
-    background-color: azure;
+    color: rgb(240, 240, 240);
+    margin: 0;
 }
 
 a {
@@ -19,6 +16,7 @@ a {
     color: inherit;
 }
 
+/**--------Navbar---------*/
 .navbar {
     text-decoration: none;
     display: flex;
@@ -59,23 +57,23 @@ a {
     width: 35px;
     height: 35px;
 }
+/*----End of Navbar------*/
+/**----------Parallax------------*/
+
+
+/**------Sections-------*/
+section {
+    height: 100vh;
+}
 
 .s1 {
     background: url(images/alex-gruber-tcG15vwIL2Q-unsplash.jpg) no-repeat center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .s2 {
     align-items: center;
-}
-
-.s3 {
-    align-items: center;
-}
-
-.s4 {
-    background: url(images/pramod-tiwari-CEAC_Jl9vAI-unsplash.jpg) no-repeat center;
-    background-size: cover;
 }
 
 h1 {
@@ -86,7 +84,7 @@ h1 {
     top: 25%;
     left: 25%;
     overflow: hidden;
-    animation: animateh1 2.5s 1s linear;
+    animation: animate-h1 2.5s 1s linear;
     text-shadow: 4px 4px 7px rgba(0,0,0,0.26);
 }
 
@@ -98,11 +96,11 @@ h2 {
     top: 40%;
     left: 25%;
     overflow: hidden;
-    animation: animateh2 4s 1s linear;
+    animation: animate-h2 4s 1s linear;
     text-shadow: 4px 4px 7px rgba(0,0,0,0.26);
 }
 
-@keyframes animateh1 {
+@keyframes animate-h1 {
     0% {
         width: 0%;
         height: 0%;
@@ -133,7 +131,7 @@ h2 {
     }
 }
 
-@keyframes animateh2 {
+@keyframes animate-h2 {
     0% {
         width: 0%;
         height: 0%;
@@ -172,10 +170,25 @@ h2 {
     border: 2px solid rgb(255, 255, 255);
 }
 
-/*
+/**----Footer------*/
 footer {
-    background-color: rgb(24, 24, 24);
+    background-color: rgb(128, 124, 124);
+    text-align: center;
     width: 100%;
-    height: 100px;
+    height: 300px;
+    padding-top: 15px;
 }
-*/
+
+.links {
+    padding: 10px;
+}
+
+.icons {
+    padding: 7px;
+    top: 40%;
+    transition-duration: 0.5s;
+}
+
+.icons:hover {
+    color: black;
+}
