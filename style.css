@@ -72,6 +72,10 @@ section {
     background-attachment: fixed;
 }
 
+.s3 {
+    background-image: linear-gradient(rgb(24, 24, 24), rgb(128, 124, 124));
+}
+
 h1 {
     font-size: 80px;
     position: absolute;
@@ -163,10 +167,10 @@ h2 {
     font-size: 19px;
     width: 500px;
     height: 400px;
-    border: 2px solid rgb(255, 255, 255);
-    left: 30%;
-    top: 20%;
+    float: right;
     position: relative;
+    right: 15%;
+    top: 15%;
 }
 
 /**----Footer------*/
@@ -195,9 +199,9 @@ footer {
 .slideshow-container {
     position: relative;
     margin: 0;
-    border: 2px solid white;
     display: flex;
     justify-content: center;
+    top: 25%;
 }
 
 .slides {
@@ -300,4 +304,12 @@ footer {
 
 .slides:hover .overlay {
     opacity: 1;
+}
+
+.prof {
+    position: relative;
+    width: auto;
+    height: 70%;
+    left: 20%;
+
 }
