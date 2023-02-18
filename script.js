@@ -1,3 +1,17 @@
+
+var text = ["Programer", "Gamer", "Student"];
+var counter = 0;
+var element = document.getElementById("changeText");
+var inst = setInterval(change, 2000);
+
+function change() {
+  element.innerHTML = text[counter];
+  counter++;
+  if (counter >= text.length) {
+    counter = 0;
+  }
+}
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
