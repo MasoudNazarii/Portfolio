@@ -1,4 +1,15 @@
 
+/*
+var showText = function (target, message, index, interval) {   
+    if (index < message.length) {
+      $(target).append(message[index++]);
+      setTimeout(function () { showText(target, message, index, interval); }, interval);
+    }
+}
+$(function () {
+    showText("#changeText", text, 0, 500);   
+});
+*/
 var text = ["Programer", "Gamer", "Student"];
 var counter = 0;
 var element = document.getElementById("changeText");
@@ -11,6 +22,8 @@ function change() {
     counter = 0;
   }
 }
+/*
+*/
 
 let slideIndex = 1;
 showSlides(slideIndex);
