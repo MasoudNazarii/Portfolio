@@ -21,7 +21,7 @@ body {
     background-color: rgb(24, 24, 24);
     color: rgb(240, 240, 240);
     margin: 0;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 a {
