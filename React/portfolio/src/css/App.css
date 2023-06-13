@@ -119,7 +119,7 @@ section {
 }
 
 .s1 {
-    background: url(../../../images/alex-gruber-tcG15vwIL2Q-unsplash.jpg) no-repeat center;
+    background: url(../images/alex-gruber-tcG15vwIL2Q-unsplash.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -132,27 +132,13 @@ section {
     background-image: linear-gradient(rgb(24, 24, 24), rgb(128, 124, 124));
 }
 
-h1 {
+.text {
     font-size: 80px;
     position: absolute;
-    width: 100%;
+    width: 60%;
     height: 100%;
     top: 25%;
     left: 25%;
-    overflow: hidden;
-    animation: animate-h1 2.5s linear 2.5s;
-    text-shadow: 4px 4px 7px rgba(0,0,0,0.26);
-}
-
-h2 {
-    font-size: 80px;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 40%;
-    left: 25%;
-    overflow: hidden;
-    animation: animate-h2 4s linear 2.5s;
     text-shadow: 4px 4px 7px rgba(0,0,0,0.26);
 }
 
