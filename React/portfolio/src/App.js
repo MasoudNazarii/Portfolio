@@ -1,11 +1,11 @@
-import './App.css';
-import All from './Components.js';
+import './css/App.css';
+import Container from './components/container';
 
 
 function App() {
   return (
     <>
-      <All />
+      <Container />
     </>
   );
 }
