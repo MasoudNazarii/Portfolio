@@ -6,7 +6,6 @@ export default function Home() {
         <>
             <div className="text">
                 <Typewriter 
-
                     onInit={(typewriter) => {
                         typewriter
                             .typeString("Hi, I'm Masoud a frontend developer. ")
