@@ -363,6 +363,7 @@ footer {
 
 #link-p {
     color: aliceblue;
+    transition-duration: 0.3s;
 }
 
 #link-p:hover {
