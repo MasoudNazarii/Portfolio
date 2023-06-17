@@ -1,12 +1,13 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
+import Images from '../images/index.js';
 
 export default function About() {
     return(
         <>
             <img
             className="prof"
-            src="../images/sina-rezakhani-0FpRnQl0IfE-unsplash.jpg"
+            src={Images.Sina}
             alt="proftest"
             />
             <div className="about">
