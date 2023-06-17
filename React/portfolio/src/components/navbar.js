@@ -1,3 +1,4 @@
+import Images from '../images/index.js';
 
 export default function Navbar() {
     return(
@@ -11,7 +12,7 @@ export default function Navbar() {
                 <div className="right-items">
                     <img
                     className="logo"
-                    src="./images/Logo.png"
+                    src={Images.Logo}
                     alt="logo"
                     />
                 </div>
