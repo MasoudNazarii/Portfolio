@@ -1,6 +1,6 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
-import Images from '../images/index.js';
+
 
 export default function Home() {
     return(
