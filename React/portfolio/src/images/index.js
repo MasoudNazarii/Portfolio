@@ -1,7 +1,6 @@
 const Images = {
     Alex: require('./alex-gruber-tcG15vwIL2Q-unsplash.jpg'),
     Calculator: require('./Calculator.png'),
-    IconLight: require('./Icon-light.ico'),
     Icon: require('./Icon.ico'),
     LogoLight: require('./Logo-light.png'),
     Logo: require('./Logo.png'),
