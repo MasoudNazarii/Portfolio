@@ -34,7 +34,7 @@ export default function Slides() {
             <div className="slide-container">
                 <Slide autoplay={false}>
                     {slideContents.map((slidecontent, index)=> (
-                        <div key={index}>
+                        <div className="slides" key={index}>
                             <div style={{...divStyle}}>
                                 <img
                                 className="slide-img"
