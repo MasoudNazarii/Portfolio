@@ -17,13 +17,15 @@ const slideContents = [
         image: Images.WeatherApp,
         alt:'weatherapp',
         info: 'Just a simple weather app website if you want go check it. :)',
-        caption: 'Weather App'
+        caption: 'Weather App',
+        link: 'https://masoudnazarii.github.io'
     },
     {
         image: Images.Calculator,
         alt:'calculator',
         info: 'another simple project a calculator.',
-        caption:'Calculator'
+        caption:'Calculator',
+        link: 'https://masoudnazarii.github.io/Calculator/'
     }
 
 ];
@@ -43,6 +45,7 @@ export default function Slides() {
                                 />
                                 <div className="overlay">
                                     <div className="info">{slidecontent.info}</div>
+                                    <div><a href={slidecontent.link}>see the website</a></div>
                                 </div>
                                 <p className="caption">{slidecontent.caption}</p>
                             </div>
