@@ -254,10 +254,10 @@ footer {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.377);
     opacity: 1;
-    width: 680px;
-    height: 38px;
+    width: 679px;
+    height: 39px;
     border-radius: 0rem 0rem 1rem 1rem;
-    top: 78%;
+    top: 77%;
     font-size: 18px;
     transition: 0.5s ease;
 }
@@ -332,4 +332,18 @@ footer {
     left: 0;
     right: 0;
     margin: auto;
+}
+
+.link {
+    position: absolute;
+    text-align: center;
+    left: 43%;
+    top: 65%;
+    border-radius: 1rem;
+    width: 6rem;
+    height: 1.5rem;
+}
+
+.link:hover {
+    background-color: rgba(240, 248, 255, 0.205);
 }
