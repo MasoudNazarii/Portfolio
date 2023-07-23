@@ -18,7 +18,7 @@ const slideContents = [
         alt:'weatherapp',
         info: 'Weather app website if you want go check it. :)',
         caption: 'Weather App',
-        link: 'https://masoudnazarii.github.io'
+        link: 'https://masoudnazarii.github.io/Weather-App/'
     },
     {
         image: Images.Calculator,
