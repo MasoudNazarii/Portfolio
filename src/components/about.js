@@ -7,7 +7,7 @@ export default function About() {
         <>
             <img
             className="prof"
-            src={Images.Sina}
+            src={Images.Prof}
             alt="proftest"
             />
             <div className="about">
@@ -23,9 +23,9 @@ export default function About() {
                 />
             </div>
             <p style={{ color: "rgb(172, 172, 172)" }} >
-                My name is Masoud Nazari. I'm new frontend developer from Isfahan Iran.
-                I learned HTML, CSS, I'm currently learning JavaScript and I've done
-                some projects you can see it{" "}
+                My name is Masoud Nazari. I'm a new front-end developer.<br/>
+                I learned HTML, CSS and JavaScript.<br/> I'm currently learning React.js and I've done
+                some projects, you can check it out{" "}
                 <a id="link-p" href="#Projects">
                 here
                 </a>
