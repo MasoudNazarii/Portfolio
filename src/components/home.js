@@ -9,7 +9,7 @@ export default function Home() {
                 <Typewriter 
                     onInit={(typewriter) => {
                         typewriter
-                            .typeString("Hi, I'm Masoud a frontend developer. ")
+                            .typeString("Hi, I'm Masoud, a front-end developer.")
                             .pauseFor(1000)
                             .deleteAll()
                             .typeString("Welcome.")
