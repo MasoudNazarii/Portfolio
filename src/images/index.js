@@ -4,7 +4,7 @@ const Images = {
     Icon: require('./Icon.ico'),
     LogoLight: require('./Logo-light.png'),
     Logo: require('./Logo.png'),
-    Sina: require('./sina-rezakhani-0FpRnQl0IfE-unsplash.jpg'),
+    Prof: require('./Untitled design (3).png'),
     WeatherApp: require('./WeatherApp.png')
 }
 
