@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.d2ba07a2.css",
-    "main.js": "/Portfolio/static/js/main.1c0274f6.js",
+    "main.css": "/Portfolio/static/css/main.8f69cacf.css",
+    "main.js": "/Portfolio/static/js/main.7eefe647.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/sina-rezakhani-0FpRnQl0IfE-unsplash.jpg": "/Portfolio/static/media/sina-rezakhani-0FpRnQl0IfE-unsplash.a4a12f55acb29f9f7b5d.jpg",
+    "static/media/Untitled design (3).png": "/Portfolio/static/media/Untitled design (3).45c6c8841e2f6641ffcf.png",
     "static/media/alex-gruber-tcG15vwIL2Q-unsplash.jpg": "/Portfolio/static/media/alex-gruber-tcG15vwIL2Q-unsplash.ef5ed2973864d97cf243.jpg",
     "static/media/WeatherApp.png": "/Portfolio/static/media/WeatherApp.50adf38c3ab867e55831.png",
     "static/media/Calculator.png": "/Portfolio/static/media/Calculator.6b3dcdab49273aef7dd1.png",
     "static/media/Icon.ico": "/Portfolio/static/media/Icon.99819f5ce4f13f0752d6.ico",
     "index.html": "/Portfolio/index.html",
-    "main.d2ba07a2.css.map": "/Portfolio/static/css/main.d2ba07a2.css.map",
-    "main.1c0274f6.js.map": "/Portfolio/static/js/main.1c0274f6.js.map",
+    "main.8f69cacf.css.map": "/Portfolio/static/css/main.8f69cacf.css.map",
+    "main.7eefe647.js.map": "/Portfolio/static/js/main.7eefe647.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2ba07a2.css",
-    "static/js/main.1c0274f6.js"
+    "static/css/main.8f69cacf.css",
+    "static/js/main.7eefe647.js"
   ]
 }
