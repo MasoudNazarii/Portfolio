@@ -334,22 +334,44 @@ footer {
 .icons {
     padding-bottom: 0.5rem;
     top: 40%;
-    transition-duration: 0.5s;
 }
 
 .links {
     padding: 0.5rem 0rem 0.5rem 0rem;
 }
 
-.icons:hover {
-    color: black;
+.email-wraper {
+    vertical-align: middle;
+    height: 30px;
+    overflow: hidden;
+    transition-duration: 0.5s;
 }
 
-.center {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
+.email {
+    vertical-align: middle;
+    padding-right: 58.5em;
+    margin: 0;
+    float: right;
+}
+
+.github-wraper {
+    vertical-align: middle;
+    height: 30px;
+    overflow: hidden;
+    padding-top: 0.3em;
+    transition-duration: 0.5s;
+}
+
+.github {
+    vertical-align: middle;
+    padding-right: 65.2em;
+    margin: 0;
+    float: right;
+}
+
+.github-wraper:hover {
+    color: #282c34;
+}
+.email-wraper:hover {
+    color: #282c34;
 }
