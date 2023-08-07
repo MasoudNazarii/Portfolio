@@ -112,7 +112,6 @@ a {
 /*----End of Navbar------*/
 
 
-
 /**------Sections-------*/
 section {
     height: 100vh;
@@ -372,6 +371,46 @@ footer {
 .github-wraper:hover {
     color: #282c34;
 }
+
 .email-wraper:hover {
     color: #282c34;
+}
+
+@media screen and (max-width: 767px) {
+    .prof {
+        height: 30%;
+    }
+    .text {
+        font-size: 40px;
+    }
+    .about {
+        text-align: center;
+        font-size: 10px;
+        float: none;
+        padding: 0;
+        position: static;
+        width: 250px;
+        height: auto;
+        padding-left: 4rem;
+    }
+    .s2 {
+        align-items: center;
+    }
+    .overlay {
+        width: 12.5%;
+        height: 25%;
+    }
+    .info {
+        font-size: 10px;
+    }
+    .link {
+        width: 3rem;
+        font-size: 7px;
+    }
+    .caption {
+        width: 11.7rem;
+        height: 1.3rem;
+        top: 53.5%;
+        font-size: 10px;
+    }
 }
