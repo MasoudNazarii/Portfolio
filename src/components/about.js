@@ -23,13 +23,12 @@ export default function About() {
                 />
             </div>
             <p style={{ color: "rgb(172, 172, 172)" }} >
-                My name is Masoud Nazari. I'm a new front-end developer.<br/>
-                I learned HTML, CSS and JavaScript.<br/> I'm currently learning React.js and I've done
-                some projects, you can check it out{" "}
+                Hello, I'm Masoud Nazari, a beginner front-end developer. I have experience with HTML, CSS, and JavaScript, and I've worked on several projects.<br/>
+                Right now, I'm learning React.js to expand my skills.<br/>
+                Feel free to check out some of my projects at{" "}
                 <a id="link-p" href="#Projects">
-                here
-                </a>
-                .
+                    here
+                </a>.
             </p>
             </div>
         </>
