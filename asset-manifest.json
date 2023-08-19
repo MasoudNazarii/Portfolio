@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.cef80b1b.css",
-    "main.js": "/Portfolio/static/js/main.7eefe647.js",
+    "main.js": "/Portfolio/static/js/main.b4f104e6.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Untitled design (3).png": "/Portfolio/static/media/Untitled design (3).45c6c8841e2f6641ffcf.png",
     "static/media/alex-gruber-tcG15vwIL2Q-unsplash.jpg": "/Portfolio/static/media/alex-gruber-tcG15vwIL2Q-unsplash.ef5ed2973864d97cf243.jpg",
@@ -10,11 +10,11 @@
     "static/media/Icon.ico": "/Portfolio/static/media/Icon.99819f5ce4f13f0752d6.ico",
     "index.html": "/Portfolio/index.html",
     "main.cef80b1b.css.map": "/Portfolio/static/css/main.cef80b1b.css.map",
-    "main.7eefe647.js.map": "/Portfolio/static/js/main.7eefe647.js.map",
+    "main.b4f104e6.js.map": "/Portfolio/static/js/main.b4f104e6.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cef80b1b.css",
-    "static/js/main.7eefe647.js"
+    "static/js/main.b4f104e6.js"
   ]
 }
