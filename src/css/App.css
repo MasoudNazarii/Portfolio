@@ -413,4 +413,10 @@ footer {
         top: 53.5%;
         font-size: 10px;
     }
+    .github {
+        padding-right: 10em;
+    }
+    .email {
+        padding-right: 3.3em;
+    }
 }
