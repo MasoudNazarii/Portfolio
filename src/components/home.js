@@ -9,6 +9,7 @@ export default function Home() {
                 <Typewriter 
                     onInit={(typewriter) => {
                         typewriter
+                            .pauseFor(2000)
                             .typeString("Hi, I'm Masoud.")
                             .pauseFor(1000)
                             .deleteAll()
