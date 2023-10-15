@@ -4,8 +4,9 @@ export default function Footer() {
         <>
             <footer id="Contact">
                 <div className="foot-wraper">
-                    <h3 className="C-head">Contact</h3>
-                    <p>For contact with me, check out the links below.</p>
+                    <h3 className="C-head">CONTACT</h3>
+                    <h4>Have a question or need assistance?</h4>
+                    <h5>For contact with me, check out the links below.</h5>
                     <div className="links">
                         <div className="email-wraper">
                             <svg
@@ -20,7 +21,7 @@ export default function Footer() {
                             </svg>
                             <p className="email">masoudnazari.dev@gmail.com</p>
                         </div>
-                        <div className="github-wraper">
+                        {/* <div className="github-wraper">
                         <a href="https://github.com/MasoudNazarii">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -34,9 +35,16 @@ export default function Footer() {
                         </svg>
                         <p className="github">MasoudNazarii</p>
                         </a>
-                        </div>
+                        </div> */}
                         
                     </div>
+                </div>
+                <div className="source">
+                    <h2>SOURCE CODE</h2>
+                    <p>If you want to see my projects source code click.</p>
+                    <br/>
+                    <a href="https://github.com/MasoudNazarii">GitHub</a>
+                    <br/>
                 </div>
             </footer>
 
