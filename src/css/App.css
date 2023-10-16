@@ -81,10 +81,6 @@ a {
     transition-duration: 0.5s;
 }
 
-.right-items {
-    /* padding-right: 20px; */
-}
-
 .left-items {
     flex: 1;
     display: inline;
@@ -367,8 +363,6 @@ footer {
 
 .email-wraper {
     vertical-align: middle;
-    height: 30px;
-    overflow: hidden;
     transition-duration: 0.5s;
 }
 
@@ -376,30 +370,11 @@ footer {
     color: #751aff;
 }
 
-.email {
+.p-email {
     vertical-align: middle;
     padding-right: 57.5em;
     margin: 0;
     float: right;
-}
-
-.github-wraper {
-    vertical-align: middle;
-    height: 30px;
-    overflow: hidden;
-    padding-top: 0.3em;
-    transition-duration: 0.5s;
-}
-
-.github {
-    vertical-align: middle;
-    padding-right: 64.2em;
-    margin: 0;
-    float: right;
-}
-
-.github-wraper:hover {
-    color: #282c34;
 }
 
 @media screen and (max-width: 767px) {
@@ -449,6 +424,7 @@ footer {
 
 .source {
     text-align: center;
+    align-items: center;
 }
 
 .source h2 {
@@ -463,8 +439,9 @@ footer {
 }
 
 .source a {
-    position: inherit;
-    padding: 1em;
+    position: relative;
+    padding: 1em 2em 1em 2em;
+    width: 10%;
     background-color: transparent;
     border: 2px solid #eeebeb;
     color: aliceblue;
@@ -472,9 +449,92 @@ footer {
     background: linear-gradient(to left, transparent 50%, rgb(255, 255, 255) 50%) right;
     background-size: 200%;
     transition: 0.5s;
+    left: 42%;
+    display: block;
 }
 
 .source a:hover {
     background-position: left;
     color: #282c34;
+}
+
+hr {
+    background-color: #7a7a7a4b;
+    color: #7a7a7a4b;
+    border-width: 0;
+    height: 1px;
+    margin: 2em;
+}
+
+.hr-short {
+    background-image: linear-gradient(to right, rgba(9, 5, 20, 0.915), rgba(0, 0, 0, 0), rgba(9, 5, 20, 0.915));
+    margin: 2em;
+}
+
+.footer-logo {
+    width: 1.5em;
+    height: auto;
+    display: block;
+    position: relative;
+    left: 49%;
+}
+
+.footer-links {
+    position: relative;
+    padding: 2em;
+    left: 29%;
+}
+
+.footer-links a{
+    padding-right: 2em;
+    color: #a19f9f;
+    font-weight: lighter !important
+}
+
+.footer-links a:hover {
+    color: #eeebeb;
+}
+
+.social {
+    position: relative;
+    display: inline;
+    padding: 1em;
+    margin: 2em;
+}
+
+.social p {
+    display: inline;
+    padding: 1em 17em 1em 1em;
+    font-weight: lighter;
+    color: #a19f9f;
+}
+
+.wraper {
+    display: inline;
+    padding-right: 2em;
+    vertical-align: middle;
+}
+
+.github:hover {
+    color: #a19f9f;
+}
+
+.linkedin:hover {
+    color: rgb(5, 147, 230);
+}
+
+.email:hover {
+    color: rgb(197, 20, 55);
+}
+
+.instagram:hover {
+    background: linear-gradient(233deg,
+             rgba(186,63,251,1) 0%,
+             rgba(244,115,255,1) 31%, 
+             rgba(241,42,93,1) 58%, 
+             rgba(249,244,90,1) 100%);
+}
+
+.twitter:hover {
+    color: #007be0;
 }
