@@ -77,7 +77,6 @@ a {
     z-index: 100;
     width: 100%;
     border: none;
-    /* color: #7a7a7a4b; */
     transition-duration: 0.5s;
 }
 
@@ -85,6 +84,10 @@ a {
     flex: 1;
     display: inline;
     margin: 10px;
+}
+
+.left-items a {
+    padding-right: 1em;
 }
 
 .left-items a,
@@ -98,13 +101,7 @@ a {
     font-size: 19px;
 }
 
-.bi:hover {
-    color: rgb(165, 165, 165);
-    width: 35px;
-    height: 35px;
-}
 /*----End of Navbar------*/
-
 
 /**------Sections-------*/
 section {
@@ -379,7 +376,7 @@ footer {
 
 @media screen and (max-width: 767px) {
     .prof {
-        height: 30%;
+        height: 35%;
     }
     .text {
         font-size: 40px;
@@ -420,6 +417,24 @@ footer {
     .email {
         padding-right: 3.3em;
     }
+    .footer-links {
+        left: 0 !important;
+    }
+    .social {
+        display: block;
+        margin: 0em;
+    }
+    .social p {
+        padding: 1em !important;
+        display: block !important;
+    }
+    .github {
+        padding-left: 1em;
+    }
+    .wraper {
+        padding-right: 1em !important;
+    }
+    
 }
 
 .source {
@@ -463,7 +478,7 @@ hr {
     color: #7a7a7a4b;
     border-width: 0;
     height: 1px;
-    margin: 2em;
+    margin: 2em 0em 2em 0em;
 }
 
 .hr-short {
@@ -527,12 +542,14 @@ hr {
     color: rgb(197, 20, 55);
 }
 
-.instagram:hover {
-    background: linear-gradient(233deg,
-             rgba(186,63,251,1) 0%,
-             rgba(244,115,255,1) 31%, 
-             rgba(241,42,93,1) 58%, 
-             rgba(249,244,90,1) 100%);
+.bi-instagram {
+    font-size: 1.4em;
+}
+
+.bi-instagram:hover {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(233deg,rgba(186,63,251,1) 0%,rgba(244,115,255,1) 31%, rgba(241,42,93,1) 58%, rgba(249,244,90,1) 100%);
 }
 
 .twitter:hover {
