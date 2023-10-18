@@ -5,12 +5,14 @@ export default function Navbar() {
  
     function scrollFunction() {
      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("navbar").style.background = "#1e1e1e2a";
+        document.getElementById("navbar").style.background = "#1a1a1a36";
         document.getElementById("navbar").style.borderBottom = "1px solid #7a7a7a4b";
+        document.getElementById("navbar").style.backdropFilter = "blur(0.5rem)";
     }
     else {
         document.getElementById("navbar").style.background = "none";
         document.getElementById("navbar").style.borderBottom = "none";
+        document.getElementById("navbar").style.backdropFilter = "none";
     }}
 
     return(
