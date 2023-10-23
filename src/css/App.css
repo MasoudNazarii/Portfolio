@@ -375,8 +375,11 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
+    footer {
+        align-items: center;
+    }
     .prof {
-        height: 35%;
+        height: 35.5%;
     }
     .text {
         font-size: 40px;
@@ -419,6 +422,7 @@ footer {
     }
     .footer-links {
         left: 0 !important;
+        
     }
     .social {
         display: block;
@@ -434,7 +438,18 @@ footer {
     .wraper {
         padding-right: 1em !important;
     }
-    
+    .p-email {
+        padding-right: 5em;
+
+    }
+    .source a {
+        left: 32% !important;
+        padding: 1em 3em 1em 3em !important;
+    }
+    .footer-links a {
+        padding-right: 1em !important;
+
+    }
 }
 
 .source {
