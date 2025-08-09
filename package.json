@@ -18,7 +18,9 @@
   },
   "devDependencies": {
     "react-scripts": "^5.0.1",
-    "postcss": ">=8.4.31"
+    "postcss": ">=8.4.31",
+    "brace-expansion": ">=2.0.2",
+    "webpack-dev-server": ">=5.2.1"
   },
   "scripts": {
     "start": "react-scripts start",
