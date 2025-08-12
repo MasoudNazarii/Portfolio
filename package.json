@@ -19,7 +19,7 @@
   "devDependencies": {
     "react-scripts": "^5.0.1",
     "postcss": ">=8.4.31",
-    "brace-expansion": ">=2.0.2",
+    "brace-expansion": ">=4.0.1",
     "webpack-dev-server": ">=5.2.1"
   },
   "scripts": {
