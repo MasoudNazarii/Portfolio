@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "babel-plugin-react-compiler": "^1.0.0",
-    "brace-expansion": ">=4.0.1",
+    "brace-expansion": ">=5.0.5",
     "postcss": ">=8.4.31",
     "react-scripts": "^5.0.1",
     "webpack-dev-server": ">=5.2.1"
